@@ -36,5 +36,7 @@
 	<string>XFWK</string>
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
+	<key>CFBundleExecutable</key>
+	<string>TensorFlowLiteC</string>
 </dict>
 </plist>

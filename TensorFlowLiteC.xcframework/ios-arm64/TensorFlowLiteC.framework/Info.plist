@@ -1,44 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-        "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <!-- 필수: 실행 바이너리 -->
-    <key>CFBundleExecutable</key>
-    <string>TensorFlowLiteC</string>
-
-    <!-- 필수: 고유 번들 ID -->
-    <key>CFBundleIdentifier</key>
-    <string>io.github.kewlbear.TensorFlowLiteC</string>
-
-    <!-- 필수: plist 포맷 버전 -->
-    <key>CFBundleInfoDictionaryVersion</key>
-    <string>6.0</string>
-
-    <!-- 표시용 이름 -->
-    <key>CFBundleName</key>
-    <string>TensorFlowLiteC</string>
-
-    <!-- 필수: 프레임워크 패키지 -->
-    <key>CFBundlePackageType</key>
-    <string>FMWK</string>
-
-    <!-- 필수: 빌드 번호(내부 버전) -->
-    <key>CFBundleVersion</key>
-    <string>2.15.0</string>
-
-    <!-- 필수: 사용자 표시용 버전 -->
-    <key>CFBundleShortVersionString</key>
-    <string>2.15.0</string>
-
-    <!-- 필수: 지원 플랫폼 배열 -->
-    <key>CFBundleSupportedPlatforms</key>
-    <array>
-        <string>iPhoneOS</string>
-    </array>
-
-    <!-- 필수: 최소 지원 iOS 버전(64-bit는 8.0 이상) -->
-    <key>MinimumOSVersion</key>
-    <string>12.0</string>
+	<key>CFBundleExecutable</key>
+	<string>TensorFlowLiteC</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.kewlbear.TensorFlowLiteC</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TensorFlowLiteC</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleVersion</key>
+	<string>2.17.4</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.17.4</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>12.0</string>
 </dict>
 </plist>
